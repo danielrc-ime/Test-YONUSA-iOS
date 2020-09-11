@@ -16,6 +16,7 @@
 		566703AD250C04C90010E3D8 /* SimpsonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566703AC250C04C90010E3D8 /* SimpsonData.swift */; };
 		566703AF250C050A0010E3D8 /* SimpsonManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566703AE250C050A0010E3D8 /* SimpsonManager.swift */; };
 		566703B1250C051C0010E3D8 /* SimpsonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566703B0250C051C0010E3D8 /* SimpsonModel.swift */; };
+		566703B3250C19880010E3D8 /* CharacterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566703B2250C19880010E3D8 /* CharacterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		566703AC250C04C90010E3D8 /* SimpsonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpsonData.swift; sourceTree = "<group>"; };
 		566703AE250C050A0010E3D8 /* SimpsonManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpsonManager.swift; sourceTree = "<group>"; };
 		566703B0250C051C0010E3D8 /* SimpsonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpsonModel.swift; sourceTree = "<group>"; };
+		566703B2250C19880010E3D8 /* CharacterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				56670399250C039E0010E3D8 /* SimpsonViewController.swift */,
+				566703B2250C19880010E3D8 /* CharacterViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 			files = (
 				5667039A250C039E0010E3D8 /* SimpsonViewController.swift in Sources */,
 				56670396250C039E0010E3D8 /* AppDelegate.swift in Sources */,
+				566703B3250C19880010E3D8 /* CharacterViewController.swift in Sources */,
 				56670398250C039E0010E3D8 /* SceneDelegate.swift in Sources */,
 				566703B1250C051C0010E3D8 /* SimpsonModel.swift in Sources */,
 				566703AD250C04C90010E3D8 /* SimpsonData.swift in Sources */,
