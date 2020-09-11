@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		56670396250C039E0010E3D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56670395250C039E0010E3D8 /* AppDelegate.swift */; };
 		56670398250C039E0010E3D8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56670397250C039E0010E3D8 /* SceneDelegate.swift */; };
-		5667039A250C039E0010E3D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56670399250C039E0010E3D8 /* ViewController.swift */; };
+		5667039A250C039E0010E3D8 /* SimpsonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56670399250C039E0010E3D8 /* SimpsonViewController.swift */; };
 		5667039D250C039E0010E3D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5667039B250C039E0010E3D8 /* Main.storyboard */; };
 		5667039F250C03A70010E3D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5667039E250C03A70010E3D8 /* Assets.xcassets */; };
 		566703A2250C03A70010E3D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 566703A0250C03A70010E3D8 /* LaunchScreen.storyboard */; };
+		566703AD250C04C90010E3D8 /* SimpsonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566703AC250C04C90010E3D8 /* SimpsonData.swift */; };
+		566703AF250C050A0010E3D8 /* SimpsonManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566703AE250C050A0010E3D8 /* SimpsonManager.swift */; };
+		566703B1250C051C0010E3D8 /* SimpsonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566703B0250C051C0010E3D8 /* SimpsonModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		56670392250C039E0010E3D8 /* Test YONUSA iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Test YONUSA iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		56670395250C039E0010E3D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		56670397250C039E0010E3D8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		56670399250C039E0010E3D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		56670399250C039E0010E3D8 /* SimpsonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpsonViewController.swift; sourceTree = "<group>"; };
 		5667039C250C039E0010E3D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5667039E250C03A70010E3D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		566703A1250C03A70010E3D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		566703A3250C03A70010E3D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		566703AC250C04C90010E3D8 /* SimpsonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpsonData.swift; sourceTree = "<group>"; };
+		566703AE250C050A0010E3D8 /* SimpsonManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpsonManager.swift; sourceTree = "<group>"; };
+		566703B0250C051C0010E3D8 /* SimpsonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpsonModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +62,42 @@
 		56670394250C039E0010E3D8 /* Test YONUSA iOS */ = {
 			isa = PBXGroup;
 			children = (
+				566703AB250C04070010E3D8 /* Controller */,
+				566703AA250C03FB0010E3D8 /* View */,
+				566703A9250C03EC0010E3D8 /* Mobile */,
 				56670395250C039E0010E3D8 /* AppDelegate.swift */,
 				56670397250C039E0010E3D8 /* SceneDelegate.swift */,
-				56670399250C039E0010E3D8 /* ViewController.swift */,
-				5667039B250C039E0010E3D8 /* Main.storyboard */,
 				5667039E250C03A70010E3D8 /* Assets.xcassets */,
 				566703A0250C03A70010E3D8 /* LaunchScreen.storyboard */,
 				566703A3250C03A70010E3D8 /* Info.plist */,
 			);
 			path = "Test YONUSA iOS";
+			sourceTree = "<group>";
+		};
+		566703A9250C03EC0010E3D8 /* Mobile */ = {
+			isa = PBXGroup;
+			children = (
+				566703AC250C04C90010E3D8 /* SimpsonData.swift */,
+				566703B0250C051C0010E3D8 /* SimpsonModel.swift */,
+				566703AE250C050A0010E3D8 /* SimpsonManager.swift */,
+			);
+			path = Mobile;
+			sourceTree = "<group>";
+		};
+		566703AA250C03FB0010E3D8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5667039B250C039E0010E3D8 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		566703AB250C04070010E3D8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				56670399250C039E0010E3D8 /* SimpsonViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +171,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5667039A250C039E0010E3D8 /* ViewController.swift in Sources */,
+				5667039A250C039E0010E3D8 /* SimpsonViewController.swift in Sources */,
 				56670396250C039E0010E3D8 /* AppDelegate.swift in Sources */,
 				56670398250C039E0010E3D8 /* SceneDelegate.swift in Sources */,
+				566703B1250C051C0010E3D8 /* SimpsonModel.swift in Sources */,
+				566703AD250C04C90010E3D8 /* SimpsonData.swift in Sources */,
+				566703AF250C050A0010E3D8 /* SimpsonManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

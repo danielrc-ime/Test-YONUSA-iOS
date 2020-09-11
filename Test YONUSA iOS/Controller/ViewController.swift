@@ -8,11 +8,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class SimpsonViewController: UIViewController {
+    
+    var simpsonManager = SimpsonManager()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        simpsonManager.fetchSimpson(numPeronajes: "2")
     }
 
 
