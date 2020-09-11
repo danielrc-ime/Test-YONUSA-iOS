@@ -32,6 +32,7 @@ class SimpsonViewController: UIViewController {
         simpsonManager.fetchSimpson(numPeronajes: "10")
     }
     
+    // MARK: - Portrait - Landscape
     override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
         if UIDevice.current.orientation.isLandscape {
             simpsonManager.fetchSimpson(numPeronajes: "20")
